@@ -1,8 +1,14 @@
-
 # 🚆 IRCTC Railway Management System API
 
 Welcome to the **IRCTC Railway Management System API**!  
 This project simulates a real-world railway booking platform like IRCTC, providing functionalities for both **users** and **admins** to manage train schedules, seat bookings, and availability.
+
+---
+
+## 🌟 **API Workflow in Action**
+
+![API Workflow](https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif)  
+*Above is a representation of API workflows for user registration, train booking, and seat availability checks.*
 
 ---
 
@@ -21,32 +27,13 @@ Key Features:
 
 ---
 
-## 🌟 **Features Overview**
-
-### 🔒 Authentication
-- **Register**: Create a new user.
-- **Login**: Generate a secure JWT token for access.
-
-### 🚉 Train Management
-- **Admin-Only**: Add new trains, update seats, etc.
-- **Train Availability**: Check available trains between stations.
-
-### 🎟️ Seat Booking
-- **Book Seats**: Safeguard against simultaneous bookings.
-- **Booking Details**: Retrieve user-specific bookings.
-
-### 📊 Real-Time Updates
-- Fetch and book seats with accurate concurrency management.
-
----
-
 ## 🛠️ **Tech Stack**
 
-- **Backend Framework**: [Node.js](https://nodejs.org/) with [Express.js](https://expressjs.com/)
-- **Database**: [MySQL](https://www.mysql.com/)
-- **Authentication**: [JWT](https://jwt.io/) for secure session handling
-- **Encryption**: [bcrypt](https://www.npmjs.com/package/bcrypt) for passwords
-- **Environment Management**: [dotenv](https://www.npmjs.com/package/dotenv)
+- **Backend Framework**: [Node.js](https://nodejs.org/) with [Express.js](https://expressjs.com/)  
+- **Database**: [MySQL](https://www.mysql.com/)  
+- **Authentication**: [JWT](https://jwt.io/) for secure session handling  
+- **Encryption**: [bcrypt](https://www.npmjs.com/package/bcrypt) for passwords  
+- **Environment Management**: [dotenv](https://www.npmjs.com/package/dotenv)  
 
 ---
 
@@ -137,26 +124,12 @@ npm start
 
 ---
 
-## 🧪 **Testing**
-
-You can test the APIs using **Postman** or any HTTP client.  
-Detailed responses and payload samples are in the `/docs` folder.
-
----
-
 ## 🚀 **Future Enhancements**
 
 - Add a front-end using React.js for a seamless UI.
 - Implement payment gateways for ticket purchases.
 - Introduce train seat selection during booking.
 - Add email notifications for booking confirmations.
-
----
-
-## 📄 **License**
-
-This project is licensed under the MIT License.  
-Feel free to fork, modify, and contribute!
 
 ---
 
@@ -170,6 +143,6 @@ Feel free to fork, modify, and contribute!
 
 ---
 
-![Train GIF](https://media.giphy.com/media/Lq8qYhGIRMYSk/giphy.gif)
+![API Flow GIF](https://media.giphy.com/media/L4FjRxANoi8LUxSDYx/giphy.gif)  
 
 _**Happy Coding!**_ 🚀
